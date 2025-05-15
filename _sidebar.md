@@ -1,2 +1,3 @@
-- [Read Me](README)
-- [Example Second Page](second-page)
+- [Accueil](README)
+- [Charte des Ruches](charte-des-ruches)
+- [Charte de la Ruche 33](charte-de-la-ruche-33)
