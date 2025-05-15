@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta http-equiv='cache-control' content='no-cache'> 
+<meta http-equiv='expires' content='0'> 
+<meta http-equiv='pragma' content='no-cache'>
 
 <head>
   <meta charset="utf-8">
@@ -9,9 +12,20 @@
   <!-- Replace with your own title and description. -->
   <title>La Ruche 33</title>
   <meta name="description" content="Ressources liées à la ruche 33">
-
-  <!-- Default Theme (see https://docsify.js.org/#/themes) -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- Theme: Simple (light + dark) -->
+  <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <!-- Custom theme styles -->
+  <style>
+  :root {
+  --theme-color	: gold;
+  --base-background-color: #161616;
+  --sidebar-background : #1e2021;
+  --heading-h1-color : gold;
+  --link-color : goldenrod;
+  }
+  </style>
+	
 
 </head>
 
@@ -46,6 +60,8 @@
   <!-- Recommended -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
-
+  
+  <!-- docsify-themeable -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
 </body>
 </html>
